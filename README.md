@@ -43,3 +43,13 @@ Trained for MNIST dataset and CelebA dataset.
     </td>
   </tr>
 </table>
+
+# Python setup
+```
+py -3.10 -m venv venv
+.\venv\Scripts\activate
+
+pip install torch torchvision
+pip install matplotlib
+pip install gdown
+```
